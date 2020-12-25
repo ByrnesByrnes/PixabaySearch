@@ -64,7 +64,7 @@
   width: 99%;
   justify-content: space-between;
   transform: translate(-50%, -50%);
-  z-index: 40;
+  z-index: 10;
 
 }
 
@@ -80,6 +80,7 @@
   cursor: pointer;
   transition: .2s;
   background: rgba(200,200,200,.9);
+  
 }
 
 .search__direction:hover {

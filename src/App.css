@@ -90,8 +90,8 @@ p {
 }
 
 .image__info svg {
+  cursor: pointer;
   color:red;
-  
 }
 
 .big .image__info {
@@ -107,7 +107,7 @@ p {
   grid-row: span 2;
 }
 
-/* ------ Favrotites ----- */
+/* ------ Favorites ----- */
 
 .favorites__title {
   position: relative;
@@ -132,11 +132,12 @@ p {
 .favorites__removeBtn {
   cursor: pointer;
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 10px;
+  right: 10px;
   padding: 5px 15px;
   border-radius: 12px;
   border: var(--border);
+  background-color: rgb(235, 235, 235);
   transition: .2s;
 }
 .favorites__removeBtn:hover {

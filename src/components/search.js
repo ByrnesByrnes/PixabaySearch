@@ -42,7 +42,6 @@ export default function Search() {
     }
   }
 
-
   useEffect(() => {
     searchImages()
     currentPage === 1 ? setDisabled(true) : setDisabled(false)
