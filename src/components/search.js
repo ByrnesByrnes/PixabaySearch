@@ -2,7 +2,7 @@ import React, {useState, useRef, useEffect, useCallback} from 'react';
 import './css/search.css'
 import {ImSearch} from 'react-icons/im'
 import {AiOutlineArrowRight, AiOutlineArrowLeft} from 'react-icons/ai'
-
+import { apiKey as keyApi } from '../apiKey'
 import { StateContext } from '../context/state'
 
 export default function Search() {
@@ -16,7 +16,7 @@ export default function Search() {
   const [disabled, setDisabled] = useState(true)
  
   const baseUrl = 'https://pixabay.com/api/'
-  const apiKey = '?key=19628942-91d596e83aac1ff8a523f4e9e'
+  const apiKey = keyApi
   const fullUrl = `${baseUrl}${apiKey}&q=${input}&image_type=photo&per_page=18`
 
 
