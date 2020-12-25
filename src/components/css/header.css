@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background: var(--color-accent);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  z-index: 50;
+  transition: .2s;
+}
+
+.logo {
+  position: relative;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  transition: .4s;
+}
+
+li svg {
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 10px;
+  color: var(--color-white);
+}
+
+@media (min-width: 700px) {
+  header {
+    padding: 5px 150px;
+  }
+}

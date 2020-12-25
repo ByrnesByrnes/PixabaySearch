@@ -1,0 +1,106 @@
+.search {
+  position: relative;
+  margin:auto;
+  width: 80%;
+}
+.search__bar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  border: var(--border);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow:var(--box-shadow);
+}
+
+.search__label {
+  position: absolute;
+  font-size: 20px;
+  color: rgb(129, 129, 129);
+  transition: .4s;
+}
+
+.search__input {
+  position: relative;
+  z-index: 10;
+  width: 95%;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+
+.search__input:focus + .search__label,
+.search__input:not(:placeholder-shown).search__input:not(:focus) + .search__label {
+  transform: translateY(-30px);
+  font-size: 15px;
+  color: var(--color-accent);
+}
+.search__input:focus + .search__label.darkText,
+.search__input:not(:placeholder-shown).search__input:not(:focus) + .search__label.darkText {
+  color: var(--color-white) !important;
+}
+
+.search__button {
+  font-size: 25px;
+  background: transparent;
+  border: none;
+  color: var(--color-accent);
+}
+
+.search__pagination {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  
+  display: flex;
+  width: 99%;
+  justify-content: space-between;
+  transform: translate(-50%, -50%);
+  z-index: 40;
+
+}
+
+.search__direction {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  
+  border-radius: 50%;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.search__direction:hover {
+  transform: scale(1.1);
+}
+.search__direction:disabled:hover {
+  cursor: auto;
+  transform: scale(1);
+}
+.search__direction:disabled > svg {
+  color: darkgray;
+}
+.search__direction > svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--color-accent);
+  transform: translate(-50%,-50%);
+}
+
+@media (min-width: 700px) {
+  .search__pagination {
+    width: 1020px;
+  }
+}
+
