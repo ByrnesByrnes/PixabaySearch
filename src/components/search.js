@@ -1,7 +1,7 @@
 import React, {useState, useRef, useEffect, useCallback} from 'react';
 import './css/search.css'
 import {ImSearch} from 'react-icons/im'
-import {AiOutlineArrowRight, AiOutlineArrowLeft} from 'react-icons/ai'
+import {IoMdArrowDropright, IoMdArrowDropleft} from 'react-icons/io'
 import { apiKey as keyApi } from '../apiKey'
 import { StateContext } from '../context/state'
 
@@ -22,12 +22,10 @@ export default function Search() {
 
   const prevPage = () => {
     setCurrentPage(currentPage => currentPage - 1)
-    searchImages()
   }
   
   const nextPage = () => {
     setCurrentPage(currentPage => currentPage + 1)
-    searchImages()
   }
 
   const searchImages = async () => {
@@ -44,10 +42,15 @@ export default function Search() {
     }
   }
 
+
   useEffect(() => {
-    input.length <= 2 ? setCurrentPage(1) : searchImages()
+    searchImages()
     currentPage === 1 ? setDisabled(true) : setDisabled(false)
-  }, [currentPage, input.length])
+  },[prevPage, nextPage])
+
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [input.length])
 
   return (
     <div className="search">
@@ -69,8 +72,8 @@ export default function Search() {
         </div>
       </form>
       <div className="search__pagination" style={{visibility: !state.recentSearch.length < 1 && !input.length <= 2 ? "visible": "hidden" }}>
-        <button className="search__direction" onClick={prevPage} disabled={disabled}><AiOutlineArrowLeft/></button>
-        <button className="search__direction" onClick={nextPage} currentpage="3 Page"><AiOutlineArrowRight/></button>
+        <button className="search__direction" onClick={prevPage} disabled={disabled}><IoMdArrowDropleft/></button>
+        <button className="search__direction" onClick={nextPage} currentpage="3 Page"><IoMdArrowDropright/></button>
       </div>
     </div>
   )

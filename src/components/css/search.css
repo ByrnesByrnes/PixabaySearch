@@ -16,6 +16,7 @@
   background-color: #fff;
   box-shadow: var(--box-shadow);
   -webkit-box-shadow:var(--box-shadow);
+  z-index: 100;
 }
 
 .search__label {
@@ -58,7 +59,7 @@
   top: 50%;
   left: 50%;
   margin: 0 auto;
-  
+  padding: 10px;
   display: flex;
   width: 99%;
   justify-content: space-between;
@@ -69,15 +70,16 @@
 
 .search__direction {
   position: relative;
-  width: 40px;
-  height: 40px;
-  
+  width: 50px;
+  height: 50px;
+  margin: 5px;
   border-radius: 50%;
   border: var(--border);
   box-shadow: var(--box-shadow);
   -webkit-box-shadow: var(--box-shadow);
   cursor: pointer;
   transition: .2s;
+  background: rgba(200,200,200,.9);
 }
 
 .search__direction:hover {
@@ -92,13 +94,15 @@
 }
 .search__direction > svg {
   position: absolute;
+  font-size: 35px;
   top: 50%;
   left: 50%;
   color: var(--color-accent);
   transform: translate(-50%,-50%);
+  
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1200px) {
   .search__pagination {
     width: 1020px;
   }
