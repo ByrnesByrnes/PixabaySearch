@@ -68,7 +68,7 @@ export default function Search() {
         </button>
         </div>
       </form>
-      <div className="search__pagination" style={{visibility: input.length <= 2 ? "hidden" : "visible" }}>
+      <div className="search__pagination" style={{visibility: !state.recentSearch.length < 1 && !input.length <= 2 ? "visible": "hidden" }}>
         <button className="search__direction" onClick={prevPage} disabled={disabled}><AiOutlineArrowLeft/></button>
         <button className="search__direction" onClick={nextPage} currentpage="3 Page"><AiOutlineArrowRight/></button>
       </div>
