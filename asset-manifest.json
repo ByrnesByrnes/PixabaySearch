@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PixabaySearch/static/css/main.b92bb08e.chunk.css",
-    "main.js": "/PixabaySearch/static/js/main.e77bf72e.chunk.js",
-    "main.js.map": "/PixabaySearch/static/js/main.e77bf72e.chunk.js.map",
+    "main.js": "/PixabaySearch/static/js/main.80787b80.chunk.js",
+    "main.js.map": "/PixabaySearch/static/js/main.80787b80.chunk.js.map",
     "runtime-main.js": "/PixabaySearch/static/js/runtime-main.e266f902.js",
     "runtime-main.js.map": "/PixabaySearch/static/js/runtime-main.e266f902.js.map",
     "static/js/2.c258c121.chunk.js": "/PixabaySearch/static/js/2.c258c121.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e266f902.js",
     "static/js/2.c258c121.chunk.js",
     "static/css/main.b92bb08e.chunk.css",
-    "static/js/main.e77bf72e.chunk.js"
+    "static/js/main.80787b80.chunk.js"
   ]
 }
