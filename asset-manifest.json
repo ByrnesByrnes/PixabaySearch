@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PixabaySearch/static/css/main.2a90da17.chunk.css",
+    "main.css": "/PixabaySearch/static/css/main.eded643d.chunk.css",
     "main.js": "/PixabaySearch/static/js/main.40983fda.chunk.js",
     "main.js.map": "/PixabaySearch/static/js/main.40983fda.chunk.js.map",
     "runtime-main.js": "/PixabaySearch/static/js/runtime-main.e266f902.js",
@@ -8,13 +8,13 @@
     "static/js/2.51414e39.chunk.js": "/PixabaySearch/static/js/2.51414e39.chunk.js",
     "static/js/2.51414e39.chunk.js.map": "/PixabaySearch/static/js/2.51414e39.chunk.js.map",
     "index.html": "/PixabaySearch/index.html",
-    "static/css/main.2a90da17.chunk.css.map": "/PixabaySearch/static/css/main.2a90da17.chunk.css.map",
+    "static/css/main.eded643d.chunk.css.map": "/PixabaySearch/static/css/main.eded643d.chunk.css.map",
     "static/js/2.51414e39.chunk.js.LICENSE.txt": "/PixabaySearch/static/js/2.51414e39.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e266f902.js",
     "static/js/2.51414e39.chunk.js",
-    "static/css/main.2a90da17.chunk.css",
+    "static/css/main.eded643d.chunk.css",
     "static/js/main.40983fda.chunk.js"
   ]
 }
