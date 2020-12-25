@@ -8,7 +8,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 5px 20px;
-  z-index: 50;
+  z-index: 120;
   transition: .2s;
 }
 
