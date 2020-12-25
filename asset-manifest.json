@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/PixabaySearch/static/css/main.b92bb08e.chunk.css",
-    "main.js": "/PixabaySearch/static/js/main.80787b80.chunk.js",
-    "main.js.map": "/PixabaySearch/static/js/main.80787b80.chunk.js.map",
+    "main.css": "/PixabaySearch/static/css/main.93e1487b.chunk.css",
+    "main.js": "/PixabaySearch/static/js/main.076416b5.chunk.js",
+    "main.js.map": "/PixabaySearch/static/js/main.076416b5.chunk.js.map",
     "runtime-main.js": "/PixabaySearch/static/js/runtime-main.e266f902.js",
     "runtime-main.js.map": "/PixabaySearch/static/js/runtime-main.e266f902.js.map",
-    "static/js/2.c258c121.chunk.js": "/PixabaySearch/static/js/2.c258c121.chunk.js",
-    "static/js/2.c258c121.chunk.js.map": "/PixabaySearch/static/js/2.c258c121.chunk.js.map",
+    "static/js/2.51414e39.chunk.js": "/PixabaySearch/static/js/2.51414e39.chunk.js",
+    "static/js/2.51414e39.chunk.js.map": "/PixabaySearch/static/js/2.51414e39.chunk.js.map",
     "index.html": "/PixabaySearch/index.html",
-    "static/css/main.b92bb08e.chunk.css.map": "/PixabaySearch/static/css/main.b92bb08e.chunk.css.map",
-    "static/js/2.c258c121.chunk.js.LICENSE.txt": "/PixabaySearch/static/js/2.c258c121.chunk.js.LICENSE.txt"
+    "static/css/main.93e1487b.chunk.css.map": "/PixabaySearch/static/css/main.93e1487b.chunk.css.map",
+    "static/js/2.51414e39.chunk.js.LICENSE.txt": "/PixabaySearch/static/js/2.51414e39.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e266f902.js",
-    "static/js/2.c258c121.chunk.js",
-    "static/css/main.b92bb08e.chunk.css",
-    "static/js/main.80787b80.chunk.js"
+    "static/js/2.51414e39.chunk.js",
+    "static/css/main.93e1487b.chunk.css",
+    "static/js/main.076416b5.chunk.js"
   ]
 }
